@@ -29,7 +29,17 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
- 
+  transition: background-color 0.5s, color 0.5s ;
+}
+
+body.escuro {
+--fundo-principal: #120a10;
+--texto: #f2dfe8;
+--texto-inverso: #120a10;
+--destaque: #f490ba;        
+--destaque-inverso: #d86a9d;
+--fundo-card: #1a0f16;
+--destaque-back: #2a1520;
 }
 
 header {
@@ -139,7 +149,7 @@ article h2 {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 24px;
 }
 
 /* container do vídeo */
@@ -283,6 +293,25 @@ footer a:hover {
 }
 
 @media screen and (min-width: 768px ) {
+  main{
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha{
+    grid-column: 2 / 3 ;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes{
+    grid-column: 3 / 4;
+  }
+
+  .apresentar {
+    flex-direction: column; 
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }  
