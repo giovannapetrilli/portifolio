@@ -150,17 +150,17 @@ article h2 {
   display: flex;
   align-items: center;
   gap: 24px;
+  flex-direction: column;
 }
 
 /* container do vídeo */
 .video {
   position: relative;
-  width: 60%;
+  width: 100%;
   aspect-ratio: 16 / 9;
   flex-shrink: 0;
 }
 
-/* iframe responsivo */
 .video iframe {
   position: absolute;
   inset: 0;
@@ -169,13 +169,13 @@ article h2 {
   border-radius: 8px;
 }
 
-/* texto vai pro lado oposto */
 .texto {
-  margin-left: 12px;
+  margin-left: 8px;
   text-align: left;
-  flex: 1;
-  overflow-wrap: break-word;
-  word-break: break-word;
+  width: 100%;
+  overflow-wrap: normal;   
+  word-break: normal;      
+  hyphens: auto;
 }
 
 #skill-container {
@@ -308,9 +308,15 @@ footer a:hover {
     grid-column: 3 / 4;
   }
 
-  .apresentar {
-    flex-direction: column; 
-  }
+ #video .apresentar {
+  flex-direction: row;
+  align-items: flex-start;
+ }
+
+#video .video {
+  width: 60%;
+}
+ 
 
   #skill-container {
     grid-template-columns: 1fr 1fr;
