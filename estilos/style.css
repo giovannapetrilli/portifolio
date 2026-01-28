@@ -93,7 +93,7 @@ section#ficha img.foto {
   aspect-ratio: 1/1;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 10%;
+  border-radius: 50%;
   border: 5px solid var(--fundo-card);
   outline: 5px solid var(--destaque);
   display: block;
@@ -308,16 +308,15 @@ footer a:hover {
     grid-column: 3 / 4;
   }
 
- #video .apresentar {
+  #video .apresentar {
   flex-direction: row;
   align-items: flex-start;
- }
+  }
 
-#video .video {
-  width: 60%;
-}
+  #video .video {
+    width: 60%;
+  }
  
-
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }  
