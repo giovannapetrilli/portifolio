@@ -1,4 +1,4 @@
-# Meu primeiro portifolio
+# Meu primeiro portfólio 
 Este é o desenvolvimento do meu primeiro portfólio pessoal.
 
 ⚠️ Status: Em construção (não finalizado)
