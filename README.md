@@ -8,7 +8,7 @@ O objetivo deste projeto é:
 - Praticar HTML, CSS e JavaScript
 - Criar minha presença profissional online
 
-📌 Funcionalidades planejadas:
+Funcionalidades planejadas:
 
 - [ ] Página inicial
 - [ ] Seção sobre mim
@@ -16,4 +16,4 @@ O objetivo deste projeto é:
 - [ ] Projetos
 - [ ] Contato
 
-✨ Atualizações serão feitas continuamente.
+Atualizações serão feitas continuamente.
